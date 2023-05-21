@@ -155,3 +155,5 @@ else:
 
     print(final_dict)
     st.write(final_dict)
+    time.sleep(5)
+    st.expirement_rerun()
