@@ -157,4 +157,4 @@ else:
     print(final_dict)
     st.write(final_dict)
     time.sleep(5)
-    st.expiremental_rerun()
+    st.experimental_rerun()
