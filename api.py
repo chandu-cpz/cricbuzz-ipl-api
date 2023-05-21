@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import datetime
 import re
 import streamlit as st
+import time
 url = "https://www.cricbuzz.com/cricket-series/5945/indian-premier-league-2023/matches"
 
 response = requests.get(url)
@@ -155,5 +156,5 @@ else:
 
     print(final_dict)
     st.write(final_dict)
-    datetime.sleep(5)
+    time.sleep(5)
     st.expirement_rerun()
